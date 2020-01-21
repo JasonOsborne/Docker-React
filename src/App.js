@@ -8,18 +8,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <h1>Sup?</h1>
+          <h1>OH HAI MARK?</h1>
         </p>
+        <p>You're tearing me ahpart, Lisa!</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> Don't think. 
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          React
         </a>
       </header>
     </div>
