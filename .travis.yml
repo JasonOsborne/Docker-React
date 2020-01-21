@@ -1,3 +1,6 @@
+access_key_id: $AWS_ACCESS_KEY
+secret_access_key: 
+    secure: $AWS_SECRET_KEY
 sudo: required
 services:
     - docker
@@ -17,6 +20,3 @@ deploy:
     bucket_path: "docker-react"
     on:
         branch: master
-access_key_id: $AWS_ACCESS_KEY
-secret_access_key: 
-    secure: $AWS_SECRET_KEY
